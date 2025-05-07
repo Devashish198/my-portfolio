@@ -1,0 +1,16 @@
+body {
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    min-height: 100vh;
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
